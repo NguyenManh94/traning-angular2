@@ -4,10 +4,12 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
+import {TwoBindingComponent} from './twobinding/twobinding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwoBindingComponent
   ],
   imports: [
     BrowserModule,
